@@ -1,0 +1,178 @@
+
+body {
+    background-color: #fdfcf3;
+    font-family: 'Georgia', serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-carta {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #d4b483;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+header .titulo-menu {
+    margin-bottom: 30px;
+}
+
+header .titulo-menu img {
+    max-width: 225px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+    color: #8b4513; 
+}
+
+.subtitulo {
+    font-size: 18px;
+    color: #8b4513; 
+}
+
+
+.barra-menu {
+    margin-bottom: 20px;
+}
+
+nav {
+    padding: 10px 0;
+    border-top: 2px solid #d4b483;
+    border-bottom: 2px solid #d4b483;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+    white-space: nowrap;
+    
+}
+
+.barra-navegacion {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.barra-navegacion li {
+    margin: 0;
+}
+
+.barra-navegacion a {
+    text-decoration: none;
+    color:#8b4513;
+    font-size: 1.1rem;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.barra-navegacion a:hover {
+    background-color: #8b4513;
+    color: #fff;
+}
+
+
+.page {
+    margin-bottom: 40px;
+}
+
+.seccion-menu h3 {
+    font-size: 26px;
+    color: #8b4513; 
+    margin-bottom: 20px;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.plato {
+    padding: 15px;
+    border-bottom: 1px solid #d4b483;
+    text-align: center;
+}
+
+.plato img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border: 2px solid #d4b483;
+    margin-bottom: 10px;
+}
+
+.plato h4 {
+    font-size: 20px;
+    color: #a0522d;
+}
+
+.plato p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.plato span {
+    font-weight: bold;
+    font-size: 18px;
+    color: #a0522d;
+}
+
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #8b4513;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+form button:hover {
+    background-color: #a0522d;
+}
+
+.page h2 {
+    font-size: 28px;
+    color: #8b4513; 
+}
+
+
+footer {
+    font-size: 14px;
+    color: #666;
+    border-top: 2px solid #d4b483;
+    padding-top: 10px;
+    margin-top: 30px;
+}
